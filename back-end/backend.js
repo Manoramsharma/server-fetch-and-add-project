@@ -14,7 +14,7 @@ client.connect( () => {
  app.use(cors()) ; 
 app.use(express.json()) ;
 
- const port = 8000;
+ const port = process.env.PORT ;
 
 
 
